@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="-158dp">
+
+        <LinearLayout
+            android:layout_width="197dp"
+            android:layout_height="311dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/equipoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Equipo A" />
+
+            <TextView
+                android:id="@+id/pointA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/equipoABoton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+3" />
+
+            <Button
+                android:id="@+id/equipoABoton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+2" />
+
+            <Button
+                android:id="@+id/equipoABoton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+1" />
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="reset" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="311dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/equipoB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Equipo B" />
+
+            <TextView
+                android:id="@+id/pointB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/equipoBBoton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+3" />
+
+
+            <Button
+                android:id="@+id/equipoBBoton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+2" />
+
+            <Button
+                android:id="@+id/equipoBBoton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
